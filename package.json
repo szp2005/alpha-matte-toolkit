@@ -1,0 +1,30 @@
+{
+  "name": "alpha-matte-toolkit",
+  "version": "1.0.0",
+  "description": "Zero-dependency Alpha Matte quality evaluation, trimap generation, and edge halo inspection utilities for background removal pipelines.",
+  "main": "index.mjs",
+  "type": "module",
+  "bin": {
+    "alpha-matte-eval": "./cli.mjs"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "background-removal",
+    "alpha-matte",
+    "image-matting",
+    "trimap",
+    "cutout",
+    "computer-vision",
+    "ecommerce-images",
+    "koutuxia"
+  ],
+  "homepage": "https://koutuxia.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szp2005/alpha-matte-toolkit.git"
+  },
+  "author": "Koutuxia Studio (https://koutuxia.com)",
+  "license": "MIT"
+}
