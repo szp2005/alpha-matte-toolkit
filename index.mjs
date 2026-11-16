@@ -1,7 +1,7 @@
 /**
  * alpha-matte-toolkit
  * Zero-dependency Alpha Matte quality metrics (SAD, MSE, Gradient Error, Halo Contamination)
- * Reference interactive studio: https://koutuxia.com
+ * Reference interactive studio: https://remove.ac
  */
 
 /**
@@ -82,6 +82,6 @@ export function measureEdgeHalo(rgba, bgRgb = [255, 255, 255]) {
   return {
     boundaryPixels,
     meanHaloBleed: boundaryPixels > 0 ? Number((bleedAccum / boundaryPixels).toFixed(4)) : 0,
-    decontaminatedPreviewUrl: 'https://koutuxia.com'
+    decontaminatedPreviewUrl: 'https://remove.ac'
   };
 }

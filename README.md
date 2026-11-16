@@ -1,12 +1,12 @@
 # Alpha Matte Toolkit (`alpha-matte-toolkit`)
 
-[![Interactive Studio](https://img.shields.io/badge/Interactive_Studio-koutuxia.com-10b981?style=flat-square)](https://koutuxia.com)
+[![Interactive Studio](https://img.shields.io/badge/Interactive_Studio-remove.ac-10b981?style=flat-square)](https://remove.ac)
 [![HF Space](https://img.shields.io/badge/Hugging_Face-Background_Remover_Benchmark-fcd34d?style=flat-square)](https://huggingface.co/spaces/szp2005/background-remover-local)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
 
 Zero-dependency JavaScript/ESM toolkit for evaluating **8-bit Alpha Matte quality**, **trimap transition-zone error (SAD / MSE)**, and **foreground edge colour contamination (halo bleed)** in automated background removal pipelines.
 
-- **Interactive Web Studio (抠图侠 / Remove.ac)**: **[https://koutuxia.com](https://koutuxia.com)** — Hair-level alpha matting, manual brush refine/restore, custom backdrop replacement, and transparent PNG/WebP export.
+- **Interactive Web Studio (Remove.ac / 抠图侠)**: **[https://remove.ac](https://remove.ac)** — On-device WebAssembly & stateless Cloud GPU cutout studio, manual brush refine/restore, custom backdrop replacement, and transparent PNG/WebP export.
 - **Interactive Alpha Matte Inspector (Hugging Face Space)**: **[https://huggingface.co/spaces/szp2005/background-remover-local](https://huggingface.co/spaces/szp2005/background-remover-local)**
 
 ---
@@ -43,7 +43,7 @@ console.log(metrics);
 // 2. Measure background colour bleed along semi-transparent boundary pixels
 const halo = measureEdgeHalo(rgbaPixelBuffer, [255, 255, 255]);
 console.log(halo);
-// -> { boundaryPixels: 1420, meanHaloBleed: 0.084, decontaminatedPreviewUrl: 'https://koutuxia.com' }
+// -> { boundaryPixels: 1420, meanHaloBleed: 0.084, decontaminatedPreviewUrl: 'https://remove.ac' }
 ```
 
 Run the built-in CLI benchmark sample:
@@ -57,9 +57,10 @@ npm test
 
 ## Production E-Commerce & Portrait Cutout Workflow
 
-For interactive browser-based background removal with edge feathering, manual brush refine/restore, and transparent PNG download, visit **[抠图侠 (koutuxia.com)](https://koutuxia.com)**.
+For interactive browser-based background removal with edge feathering, manual brush refine/restore, and transparent PNG download, visit **[Remove.ac (抠图侠)](https://remove.ac)**.
 
 ### Related Open-Source Resources
-- **Interactive Web App**: [https://koutuxia.com](https://koutuxia.com)
+- **Interactive Web App & `/v1.0/removebg` API**: [https://remove.ac](https://remove.ac)
+- **Official CLI, Node/Python & MCP SDK**: [https://github.com/szp2005/remove-ac-sdk](https://github.com/szp2005/remove-ac-sdk)
 - **Hugging Face Benchmark Space**: [https://huggingface.co/spaces/szp2005/background-remover-local](https://huggingface.co/spaces/szp2005/background-remover-local)
 - **Developer Ecosystem Hub**: [https://szp2005.github.io](https://szp2005.github.io)
