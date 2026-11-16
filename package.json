@@ -18,13 +18,14 @@
     "cutout",
     "computer-vision",
     "ecommerce-images",
+    "remove-ac",
     "koutuxia"
   ],
-  "homepage": "https://koutuxia.com",
+  "homepage": "https://remove.ac",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/szp2005/alpha-matte-toolkit.git"
   },
-  "author": "Koutuxia Studio (https://koutuxia.com)",
+  "author": "Remove.ac / Koutuxia Studio (https://remove.ac)",
   "license": "MIT"
 }

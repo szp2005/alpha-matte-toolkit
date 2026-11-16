@@ -8,6 +8,6 @@ const sampleTri  = new Uint8Array([0, 0, 128, 128, 128, 128, 255, 255]);
 const metrics = evaluateAlphaMatte(samplePred, sampleGt, sampleTri);
 console.log(JSON.stringify({
   tool: 'alpha-matte-toolkit v1.0.0',
-  interactiveStudio: 'https://koutuxia.com',
+  interactiveStudio: 'https://remove.ac',
   sampleEvaluation: metrics
 }, null, 2));
